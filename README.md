@@ -5,7 +5,7 @@
 Github Project
 
 ### Description
-Using my local git repo and my GitHub repo; this project will be me fork a repository, work on file, stage files and commit them to GitHub. I will also hide files using a .gitignore file.
+Using my local git repo and my GitHub repo; this project will have me fork a repository, work on files, stage files and commit them to GitHub. I will also hide files using a .gitignore file.
 
 ### Files used
 * bikeshare.py
