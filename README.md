@@ -2,13 +2,16 @@
 04/3/2020
 
 ### Project Title
-Replace the Project Title
+Github Project
 
 ### Description
-Describe what your project is about and what it does
+Using my local git repo and my GitHub repo; this project will be me fork a repository, work on file, stage files and commit them to GitHub. I will also hide files using a .gitignore file.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 List of references:
