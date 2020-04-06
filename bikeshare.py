@@ -57,7 +57,6 @@ def load_data(city, month, day):
     df['week_day'] = df['Start Time'].apply(lambda x: x.strftime('%A').lower())
 
 
-
     if month != 'all':
         month_list = ["all","january","february","march","april","may","june"]
         month = month_list.index(month) + 1
@@ -69,7 +68,6 @@ def load_data(city, month, day):
         df = df.loc[df['week_day'] == day,:]
 
     return df
-
 
 
 def time_stats(df):
@@ -103,9 +101,6 @@ def time_stats(df):
     # find the most popular hour
     popular_hour = df['hour'].mode()[0]
     print('Most Popular Start Hour:', popular_hour)
-
-
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -195,7 +190,6 @@ def user_stats(df, city):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
-
 
 
 def main():
