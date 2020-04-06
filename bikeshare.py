@@ -175,12 +175,12 @@ def user_stats(df, city):
         # Displays earliest birth year
         earliestBirthYear = df['Birth Year'].min()
 
-        print("Earliest Birth Year: ",  int(earliestBirthYear))
-
+        print("Earliest Birth Year: {}".format(earliestBirthYear))
+        #print("Earliest Birth Year: ",  int(earliestBirthYear))
         # Displays most recent birth Year
         latestBirthYear = df['Birth Year'].max()
 
-        print("Latest Birth Year: ",  int(latestBirthYear))
+        print("Latest Birth Year: ",  latestBirthYear)
 
         #Displays most common birth Year
         mostCommonBirthYear = df['Birth Year'].value_counts().head(1)
